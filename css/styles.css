@@ -1,0 +1,26 @@
+h1 {
+   font-family: fantasy;
+   font-style: italic;
+   font-size: xx-large;
+   height: 200px;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   
+
+}
+
+p { 
+   font-size: x-large;
+}
+
+body {
+   background-image: url("/images/W-background.png");
+   background-size: 100vw 100vh;
+background-attachment: fixed;
+}
+
+div.home {
+border: 10px double black;
+border-color: blue;
+}
