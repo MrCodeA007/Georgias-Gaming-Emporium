@@ -1,5 +1,5 @@
 .logo {
-   
+
 }
 
 h1 {
@@ -47,4 +47,9 @@ tfoot {
    display: flex;
    justify-content: flex-end;
    align-items: flex-end;
+}
+
+.website-heading {
+   font-size: xx-large;
+   font
 }
