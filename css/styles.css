@@ -1,6 +1,4 @@
-.logo {
-
-}
+.logo {}
 
 h1 {
    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
@@ -11,12 +9,15 @@ h1 {
    align-items: center;
    justify-content: center;
    color: blue;
-
-
 }
 
 p {
    font-size: x-large;
+   display: flex;
+   justify-content: center;
+   color: aliceblue;
+   margin: 3em;
+  
 }
 
 body {
@@ -51,5 +52,21 @@ tfoot {
 
 .website-heading {
    font-size: xx-large;
-   font
+}
+
+
+
+.intro-border {
+   text-align: center;
+}
+
+footer {
+   text-align: center;
+   align-items: flex-end;
+   position: fixed;
+   bottom: 0%;
+   width: 100%;
+   padding: 5px;
+   background-color: RGBA(33, 37, 41, var(--bs-bg-opacity, 1)) !important;
+   color: #fff;
 }
