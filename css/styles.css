@@ -70,7 +70,7 @@ tfoot {
 footer {
    text-align: center;
    align-items: flex-end;
-   position: fixed;
+  /* position: fixed;*/
    bottom: 0%;
    width: 100%;
    padding: 5px;
@@ -87,3 +87,15 @@ footer {
    text-align: center;
 }
 
+.logo {
+   height:100%;
+   width: 100%;
+}
+
+.checking {
+   background-color: white;
+}
+
+.card-text {
+   color: black;
+}

@@ -57,7 +57,7 @@
 
     <form class="p-4 p-md-5 border rounded-3 bg-body-tertiary">
       <div class="form-floating mb-3">
-        <input type="email" class="form-control" id="floatingInput" placeholder="name@example.com">
+        <input type="email" class="form-control" id="floatingInput" placeholder="name@example.com" maxlength="30" required>
         <label for="floatingInput">Email address</label>
       </div>
       <div class="form-floating mb-3">
@@ -67,11 +67,11 @@
 
       </div>
       <div class="form-floating mb-3">
-        <input type="password" class="form-control" id="floatingPassword" placeholder="Password">
+        <input type="password" class="form-control" id="floatingPassword" placeholder="Password" maxlength="30" required>
         <label for="floatingPassword">Password</label>
       </div>
       <div class="form-floating mb-3">
-        <input type="password" class="form-control" placeholder="Re-enter Password">
+        <input type="password" class="form-control" placeholder="Re-enter Password" maxlength="30" required>
         <label for="floatingPassword">Re-enter New Password</label>
       </div>
       <div class="checkbox mb-3">
@@ -87,21 +87,22 @@
         us?<!--put this sentence in the center--></small>
         
       <div>
-        <input type="radio" id="Family" name="drone" value="Family member" checked>
+        <input type="radio" id="Family" name="drone" value="Family member" checked required>
         <label for="Family">Family member</label>
       </div>
       <div>
-        <input type="radio" id="Friend" name="drone" value="Friend">
+        <input type="radio" id="Friend" name="drone" value="Friend" required>
         <label for="Friend">Friend</label>
       </div>
       <div>
-        <input type="radio" id="Pizza" name="drone" value="Pizza guy">
+        <input type="radio" id="Pizza" name="drone" value="Pizza guy" required>
         <label for="Pizza">Pizza guy</label>
       </div>
       <button class="w-100 btn btn-lg btn-dark" type="submit">Submit</button>
 
     </form>
   </div>
+  <br>
   <footer> <small>Copyright © 2023 Georgia Gaming Emporium. All Rights Reserved.</small></footer>
 </body>
 
