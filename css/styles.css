@@ -65,6 +65,7 @@ tfoot {
 
 .intro-border {
    text-align: center;
+   border: #333;
 }
 
 footer {
@@ -99,3 +100,4 @@ footer {
 .card-text {
    color: black;
 }
+
