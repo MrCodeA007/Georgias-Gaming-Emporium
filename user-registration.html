@@ -14,44 +14,44 @@
 </head>
 
 <body>
-  
-    <div class="px-3 py-2 text-bg-dark">
-      <div class="container">
-        <div class="d-flex flex-wrap align-items-center justify-content-center justify-content-lg-start">
-          <a href="/" class="d-flex align-items-center my-2 my-lg-0 me-lg-auto text-white text-decoration-none">
-            <!--needs fixing-->
-            <header class="website-heading"><i><b>Create an Account</b></i>
-            </header>
-          </a>
 
-          <ul class="nav col-12 col-lg-auto my-2 justify-content-center my-md-0 text-small">
-            <li>
-              <a href="home-page.html" class="nav-link text-white">
-                <svg class="bi d-block mx-auto mb-1" width="24" height="24">
-                  <use xlink:href="#home"></use>
-                </svg>
-                Home <!--Make home button non-transparent when outside home page-->
-                <i class="bi bi-house"></i>
-              </a>
-            </li>
-          </ul>
-        </div>
+  <div class="px-3 py-2 text-bg-dark">
+    <div class="container">
+      <div class="d-flex flex-wrap align-items-center justify-content-center justify-content-lg-start">
+        <a href="/" class="d-flex align-items-center my-2 my-lg-0 me-lg-auto text-white text-decoration-none">
+          <!--needs fixing-->
+          <header class="website-heading"><i><b>Create an Account</b></i>
+          </header>
+        </a>
+
+        <ul class="nav col-12 col-lg-auto my-2 justify-content-center my-md-0 text-small">
+          <li>
+            <a href="home-page.html" class="nav-link text-white">
+              <svg class="bi d-block mx-auto mb-1" width="24" height="24">
+                <use xlink:href="#home"></use>
+              </svg>
+              Home <!--Make home button non-transparent when outside home page-->
+              <i class="bi bi-house"></i>
+            </a>
+          </li>
+        </ul>
       </div>
     </div>
+  </div>
 
-    <div class="px-3 py-2 border-bottom mb-3">
-      <div class="container d-flex flex-wrap justify-content-center">
-      
-          <svg class="bi ms-1" width="20" height="20">
-            <use xlink:href="#arrow-right-short"></use>
-          </svg>
-       
+  <div class="px-3 py-2 border-bottom mb-3">
+    <div class="container d-flex flex-wrap justify-content-center">
 
-       
-      </div>
+      <svg class="bi ms-1" width="20" height="20">
+        <use xlink:href="#arrow-right-short"></use>
+      </svg>
+
+
+
     </div>
+  </div>
 
-  
+
 
   <div class="col-md-10 mx-auto col-lg-5">
 
@@ -83,7 +83,23 @@
       <button class="w-100 btn btn-lg btn-dark" type="submit">Sign up</button>
       <hr class="my-4">
       <small class="text-body-secondary">By clicking Sign up, you agree to the terms of use.<br> Have an
-        account?<a href="user-login.html"> Sign in here!</a></small>
+        account?<a href="user-login.html"> Sign in here!</a><br>How did you hear about
+        us?<!--put this sentence in the center--></small>
+        
+      <div>
+        <input type="radio" id="Family" name="drone" value="Family member" checked>
+        <label for="Family">Family member</label>
+      </div>
+      <div>
+        <input type="radio" id="Friend" name="drone" value="Friend">
+        <label for="Friend">Friend</label>
+      </div>
+      <div>
+        <input type="radio" id="Pizza" name="drone" value="Pizza guy">
+        <label for="Pizza">Pizza guy</label>
+      </div>
+      <button class="w-100 btn btn-lg btn-dark" type="submit">Submit</button>
+
     </form>
   </div>
   <footer> <small>Copyright © 2023 Georgia Gaming Emporium. All Rights Reserved.</small></footer>
