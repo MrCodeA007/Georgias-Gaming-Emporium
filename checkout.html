@@ -18,8 +18,8 @@
         <div class="container">
             <div class="d-flex flex-wrap align-items-center justify-content-center justify-content-lg-start">
                 <a href="/" class="d-flex align-items-center my-2 my-lg-0 me-lg-auto text-white text-decoration-none">
-                    <!--needs fixing-->
-                    <header class="website-heading"><i><b>Your Orders</b></i>
+                  
+                    <header class="website-heading"><i><b>Your cart:</b></i>
                     </header>
                 </a>
 
@@ -39,8 +39,8 @@
                             <svg class="bi d-block mx-auto mb-1" width="24" height="24">
                                 <use xlink:href="#table"></use>
                             </svg>
-                            Orders
-                            <i class="bi bi-bag"></i>
+                            Products
+                            <i class="bi bi-controller"></i>
                         </a>
                     </li>
                     <li>
@@ -49,8 +49,8 @@
                                 <use xlink:href="#grid"></use>
                             </svg>
 
-                            Products
-                            <i class="bi bi-controller"></i>
+                            Checkout
+                            <i class="bi bi-cart-check-fill"></i>
                         </a>
                     </li>
 
@@ -60,9 +60,14 @@
     </div>
     <div class="px-3 py-2 border-bottom mb-3">
         <div class="container d-flex flex-wrap justify-content-center">
-            <form class="col-12 col-lg-auto mb-2 mb-lg-0 me-lg-auto" role="search">
-                <input type="search" class="form-control" placeholder="Search..." aria-label="Search">
-            </form>
+            <nav class="navbar bg-body-dark">
+                <div class="container-fluid">
+                    <form class="d-flex" role="search">
+                        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                        <button class="btn btn-dark" type="submit">Search</button>
+                    </form>
+                </div>
+            </nav>
 
             <div class="text-end">
                 <a href="user-login.html" class="btn btn-light text-dark me-2">
@@ -72,7 +77,7 @@
             </div>
         </div>
     </div>
-
+    <footer> <small>Copyright © 2023 Georgia Gaming Emporium. All Rights Reserved.</small></footer>
 </body>
 
 </html>

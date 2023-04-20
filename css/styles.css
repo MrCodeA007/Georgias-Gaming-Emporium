@@ -11,6 +11,13 @@ h1 {
    color: blue;
 }
 
+h2 {
+font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+font-style: italic;
+font-size: xx-large;
+color: #fff;
+}
+
 p {
    font-size: x-large;
    display: flex;
@@ -69,4 +76,9 @@ footer {
    padding: 5px;
    background-color: RGBA(33, 37, 41, var(--bs-bg-opacity, 1)) !important;
    color: #fff;
+}
+
+.text-end{
+   margin-left: 60%;
+   
 }
