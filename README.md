@@ -1,5 +1,5 @@
 # Georgias-Gaming-Emporium
-E-commerce website for video gaming products such as nintendo, playstation, and xbox
+E-commerce website for video gaming products such as Nintendo, PlayStation, and Xbox.
 This README.md will go over a brief description of everything that will be found in this e-commerce website.
 
 ## Welcome!
@@ -25,3 +25,7 @@ This README.md will go over a brief description of everything that will be found
 
 ### CSS of interest:
 ![CSS of interest screenshot](https://user-images.githubusercontent.com/130064168/233643131-46d31dce-40e6-4dbb-923d-8c14425cd39f.png) Screenshot of my CSS interest. I managed to figure out some flexbox properties to properly align my product boxes in the product page by setting them in columns.
+
+
+
+
