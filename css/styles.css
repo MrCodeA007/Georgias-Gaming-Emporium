@@ -101,3 +101,26 @@ footer {
    color: black;
 }
 
+.card-container {
+   display: flex;
+   justify-content: space-between;
+   flex-wrap: wrap;
+   gap: 2%;
+
+}
+ 
+.card-container .card  {
+flex-basis:32%;
+}
+
+.btn.btn-dark {
+   margin-top: auto;
+}
+
+.card-products {
+   text-align: center;
+}
+
+.pricing {
+   color: black;
+}
