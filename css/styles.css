@@ -59,6 +59,7 @@ tfoot {
 
 .website-heading {
    font-size: xx-large;
+   color: #fff;
 }
 
 
@@ -123,5 +124,9 @@ flex-basis:32%;
 
 .pricing {
    color: black;
+}
+
+.mb-3 {
+   color: #fff;
 }
 
